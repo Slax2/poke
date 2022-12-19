@@ -6,7 +6,6 @@ import Modales from "../components/Modales";
 import pokelogo from "../img/poke-logo.png";
 import pokebola from "../img/pokebola_logo.svg";
 import "../styles/Header.css";
-import AudioPlayer from "../components/AudioPlayer"
 
 const Header = () => {
   const [mostrar, setMostrar] = useState(false);
@@ -15,7 +14,6 @@ const Header = () => {
 
   const menuBtn = document.getElementById("menuBtn");
   const body = document.body;
-
 
   return (
     <div>
@@ -36,7 +34,6 @@ const Header = () => {
         </figure>
         <div className="nav__sound">
           <span>BGM ON/OFF</span>
-         <AudioPlayer/>
         </div>
       </div>
     </div>
